@@ -53,7 +53,7 @@ class Mapping:
         if rule_action not in ["include","exclude","explicit"]:
             raise ValueError("The rule action must be one of the following values: include, exclude or explicit")
         
-        if table_types not in ["table","view","al"]:
+        if table_types not in ["table","view","all"]:
             raise ValueError("The table type must be one of the following values: table, view or all")
 
         self.table_list_input = table_list_input
