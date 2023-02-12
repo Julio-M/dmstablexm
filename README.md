@@ -18,7 +18,7 @@ table3
 ## Installation
 
 ```
-pip install dmstablexm
+pip install dmstablexhm
 ```
 
 
