@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dmstablexhm"
+version = "0.0.1"
+authors = [
+  { name="Xhulio Mihali", email="devtech633@gmail.com" },
+]
+description = "This is a python package that reads a file that inlcudes a list of tables, and generates a table-mapping.json file to be used with Database migration tasks in DMS."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
